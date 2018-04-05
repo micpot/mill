@@ -1,4 +1,9 @@
 # mill
-I've created this website for practice.
+I've created this website for practice. It was made some time ago. I've uploaded it here to have an overview on my progress in getting more and more coding/developing skills ;) 
 
-I've used just HTML and CSS. This website is also RWD friendly ;)
+I consider it as one of first stones in my avenue for programming.
+
+**Technologies used: HTML & CSS**
+This website is also RWD friendly ;)
+
+<a href="https://micpot.github.io/mill/">Mill website preview</a>
