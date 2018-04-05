@@ -1,0 +1,133 @@
+
+/* tablet & mobile */
+@media (max-width: 1023px) {
+  .big_photo {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .big_photo h1 {
+    padding-top: 0;
+  }
+
+  .collection_item {
+    width: 45%;
+  }
+
+  .collection_item:nth-last-child(2n+2) {
+    margin:0 20px;
+  }
+
+.eyewear .eyewear-right {
+  float: none;
+}
+
+.eyewear .eyewear-right{
+  float: none;
+}
+
+.eye_text {
+text-align: center;
+}
+
+.women {
+  height: auto;
+}
+
+.button_shop{
+height: auto;
+}
+
+.left_women {
+  float:none;
+  width: 100%;
+  margin-right: auto;
+}
+
+.right_women{
+  float:none;
+  width:100%;
+}
+
+.sale{
+  width:auto;
+}
+
+.row_of_five{
+  width:auto;
+  padding: inherit;
+}
+
+.black_button {
+float:none;
+margin:0 auto;
+margin-bottom: 10px;
+height: auto;
+width: 15%;
+}
+
+.black_button_image{
+  float:none;
+  width:100%;
+}
+
+.logo {
+  float: none;
+}
+
+.lower {
+  float: none
+}
+
+
+.lower_item{
+  float:none;
+  padding: 40px 0 0 0;
+  margin-left:-40px;
+
+}
+.form_box {
+  float:none;
+  text-align: left;
+}
+
+}
+
+
+
+
+
+/* mobile */
+@media (max-width: 640px) {
+
+.collection_item {
+  width: 100%;
+}
+
+.collection_item:nth-last-child(2n+2) {
+  margin: auto;
+}
+
+  .eyewear {
+float:none;
+width: 100%
+  }
+
+.left_women{
+  float: none;
+  width:100%;
+  margin: 0 auto;
+}
+
+  .women2 {
+    float:none;
+    width: 100%;
+
+  }
+
+  .women3{
+    float:none;
+    width: 100%;
+  }
+
+}

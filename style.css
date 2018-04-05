@@ -1,0 +1,333 @@
+body {
+  font-family: effra, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  padding: 15px;
+}
+
+.upper {
+  font-size: 0.8em;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.upper_item {
+  display: inline-block;
+  padding: 20px 10px 20px 20px;
+}
+
+.upper .upper_item a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.upper .upper_item a:active {
+  border-bottom: 2px solid #000000;
+}
+
+.upper .upper_item a:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.content {
+  text-align: center;
+}
+
+.big_photo {
+  background-image: url("./images/main.jpg");
+  background-position: 0% 19%;
+  background-size: cover;
+  height: 700px;
+}
+
+.big_photo h1 {
+  font-size: 4em;
+  padding-top: 15%;
+  margin: 0;
+}
+
+h1, h3 {
+  color: #FFFFFF;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.collection {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.collection_featured {
+  font-size: 1.8em;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.short_line {
+  background-image: url("./images/short-line.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 5px;
+  margin-bottom: 40px;
+}
+
+.short_text {
+  font-size: 1.2em;
+  color: #A3A3A3;
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+/* clearfix */
+
+.collection_three::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.collection_item {
+  float: left;
+  width: 32%;
+}
+
+.collection_item:nth-last-child(2n+2) {
+  margin: 0 20px;
+}
+
+.collection_item .label {
+  text-align: left;
+}
+
+.collection_item img {
+  width: 100%;
+}
+
+.glasses {
+  background-image: url("./images/eyewere.png");
+  background-position: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.glasses_item {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.eyewear {
+  float: left;
+  width: 48%;
+  margin: auto;
+}
+
+.eyewear.eyewear-right {
+  float: right;
+}
+
+.glasses_item img {
+  width: 100%;
+}
+
+.signature {
+  background-color: #000000;
+  color: #ffffff;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signature:hover {
+  background-color: #8c8c8c;
+}
+
+.eye_text {
+  padding-top: 300px;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.women {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.left_women {
+  float: left;
+  width: 45%;
+  margin-right: 60px;
+  padding-top: 5px;
+}
+
+.right_women {
+  float: left;
+  width: 45%;
+  margin: auto;
+}
+
+.women_title {
+  width: 50%;
+}
+
+.fall {
+  font-size: 1.5em;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.fall_paragraph {
+  width: 100%;
+  text-align: left;
+  font-size: 1.2em;
+  color: #A3A3A3;
+}
+
+.button_shop {
+  border: 2px solid #000000;
+  height: 30px;
+  line-height: 30px;
+  width: 30%;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.button_shop:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.women2 {
+  float: left;
+  width: 48%;
+}
+
+.women3 {
+  float: right;
+  width: 48%;
+}
+
+.women2 img {
+  width: 100%;
+}
+
+.women3 img {
+  width: 100%;
+}
+
+/* clearfix */
+
+.women::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.sale {
+  background-color: #E2E2E2;
+  width: 100%;
+}
+
+.sale_item {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row_of_five {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.black_button {
+  background-color: #000000;
+  color: #ffffff;
+  width: 12%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+  font-size: 0.9em;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.black_button:hover {
+  background-color: #8c8c8c;
+}
+
+.black_button_image {
+  width: 40%;
+  float: left;
+  margin: auto;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: #000000;
+}
+
+.bottom_items {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.logo {
+  float: left;
+}
+
+.lower {
+  float: left;
+}
+
+.lower_item {
+  float: left;
+  list-style-type: none;
+  text-decoration: underline;
+  font-size: 0.8em;
+  color: #ffffff;
+  padding: 48px 40px 0 20px
+}
+
+.form_box {
+  float: right;
+}
+
+.form_name {
+  color: #ffffff;
+  float: left;
+}
+
+input[type=submit] {
+  float: left;
+  font-weight: bold;
+}
+
+input[type=email] {
+  font-size: 1.2em;
+}
+
+input[type=submit]:hoover {
+  background-color: #000000;
+  color: #ffffff;
+}
